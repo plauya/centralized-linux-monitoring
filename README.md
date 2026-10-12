@@ -170,4 +170,6 @@ Using math evaluation to capture explicitly down hosts rather than a completely 
 *   **Network Isolation:** Restrict target node traffic on port `9100` specifically to the incoming Prometheus server IP. Keep port `9090` private.
 *   **Credential Masking:** Never hardcode SMTP relay usernames, access keys, or production access tokens into public `.yml` or configuration scripts. Utilize internal secret stores or environment injections.
 
-
+##   Architecture Overview
+### 🖥️ Dashboard Preview
+![Grafana Centralized Linux Monitoring Dashboard](dashboard.png)
